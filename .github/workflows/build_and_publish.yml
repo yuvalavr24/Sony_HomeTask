@@ -24,6 +24,6 @@ jobs:
       - name: Build and push Docker image
         env:
           IMAGE_NAME: my-image
+          TAG: latest
         run: |
-          echo "::set-env name=TAG::latest"
           docker buildx build --push --tag ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:${{ env.TAG }} .
