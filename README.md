@@ -4,8 +4,8 @@ hello_world is a python code which prints simply "Hello,World!"
 
 
 
-Dockerfile is a set of orders running while the build of a docker.
-(docker is a "box" which can contain the data you choose to insert to it. you can think it like a Cloud.)
+Dockerfile is a set of orders running while the build of a Docker.
+(Docker is an open-source platform that allows you to automate the deployment and management of applications within software containers. It provides an additional layer of abstraction and automation to simplify the process of building, distributing, and running applications)
 ![image](https://github.com/yuvalavr24/Yuval_sony_exce1/assets/133960019/0192303b-190e-486f-b7a8-9657d829787f)
 
 
