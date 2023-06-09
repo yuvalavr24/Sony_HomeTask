@@ -1,3 +1,4 @@
+# changing the repository name to lower case
 name: Build and Publish Docker Image
 
 on:
