@@ -21,10 +21,5 @@ jobs:
       with:
         python-version: 3.x  # Replace with the desired Python version (e.g., 3.8, 3.9)
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt  # If you have any dependencies, create a requirements.txt file and list them here
-
     - name: Run Python app
       run: python hello_world.py
