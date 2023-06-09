@@ -20,7 +20,7 @@ jobs:
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
-        password: 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
+        password: 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
 
     - name: Build and push Docker image
       run: |
