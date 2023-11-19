@@ -13,4 +13,4 @@ The trigger is a push to the main branch or when a pull request is opened or syn
 ![image](https://github.com/yuvalavr24/yuval_sony_exce1/assets/133960019/c6204e70-0daf-46b7-b1b5-7c6041c19c80)
 
 
-workflows conatain another yml file which also  triggered on a push event to the main branch of your repository. It means that whenever you push changes to the main branch, this workflow will be executed.this workflow sets up the necessary environment, authenticates with the GitHub Container Registry, and builds/pushes a Docker image ![image](https://github.com/yuvalavr24/yuval_sony_exce1/assets/133960019/778941e5-cf18-4ab3-83e9-18dcddc17008)
+workflows contain another yml file which also  triggered on a push event to the main branch of your repository. It means that whenever you push changes to the main branch, this workflow will be executed.this workflow sets up the necessary environment, authenticates with the GitHub Container Registry, and builds/pushes a Docker image ![image](https://github.com/yuvalavr24/yuval_sony_exce1/assets/133960019/778941e5-cf18-4ab3-83e9-18dcddc17008)
