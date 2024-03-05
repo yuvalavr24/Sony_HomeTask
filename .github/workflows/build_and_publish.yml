@@ -24,4 +24,4 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -f Dockerfile --tag ghcr.io/${{ github.repository_owner }}/${{ github.repository }}:latest .
+        docker build -t hello_world -f Dockerfile  .
