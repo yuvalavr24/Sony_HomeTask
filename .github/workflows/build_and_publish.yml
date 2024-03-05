@@ -25,3 +25,4 @@ jobs:
     - name: Build and push Docker image
       run: |
         docker build -t hello_world -f Dockerfile  .
+        docker push ghcr.io/yuvalavr24/Sony_HomeTask/hello_world
