@@ -20,6 +20,8 @@ jobs:
         password: ${{ secrets.GH_TOKEN }}
 
     - name: Build and push Docker image
+      env:
+        VERSION: "v.1.0.'"'${{ github.run_id }}"
       run: |
-        docker build -t ghcr.io/yuvalavr24/sony_task/hello_world:latest -f Dockerfile  .
-        docker push ghcr.io/yuvalavr24/sony_task/hello_world:latest
+        docker build -t ghcr.io/yuvalavr24/sony_task/hello_world:$VERSION -f Dockerfile  .
+        docker push ghcr.io/yuvalavr24/sony_task/hello_world:$VERSION
