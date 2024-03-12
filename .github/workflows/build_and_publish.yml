@@ -23,5 +23,5 @@ jobs:
       env:
         VERSION: "v.1.0.${{ github.run_number }}"
       run: |
-        docker build -t ghcr.io/yuvalavr24/sony_task/hello_world:$VERSION -f Dockerfile  .
-        docker push ghcr.io/yuvalavr24/sony_task/hello_world:$VERSION
+        docker build -t ghcr.io/yuvalavr24/sony-home-task/hello_world:$VERSION -f Dockerfile  .
+        docker push ghcr.io/yuvalavr24/sony-home-task/hello_world:$VERSION
