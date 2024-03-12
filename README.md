@@ -16,4 +16,4 @@ The trigger is a push to the main branch or when a pull request is opened or syn
 
 workflows contain another yml file which also  triggered on a push event to the main branch of your repository. It means that whenever you push changes to the main branch, this workflow will be executed.this workflow sets up the necessary environment, authenticates with the GitHub Container Registry, and builds/pushes a Docker image with version control using github workflow run number.  
 ![Screenshot (23)](https://github.com/yuvalavr24/sony-home-task/assets/133960019/0f036eff-7af8-407e-a0f5-bcb8259125f9)
-![Screenshot (24)](https://github.com/yuvalavr24/sony-home-task/assets/133960019/9380b4fc-2c35-4587-8339-2bda05573589)
+![Screenshot (25)](https://github.com/yuvalavr24/sony-home-task/assets/133960019/1230606a-83a1-4e34-b86c-540de819e9f7)
