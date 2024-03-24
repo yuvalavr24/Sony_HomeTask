@@ -1,5 +1,5 @@
 # yuval_sony_exce1
-hello_world is a python code which prints simply "Hello,World!"
+hello_world is a python app which prints simply "Hello,World!"
 ![Screenshot (21)](https://github.com/yuvalavr24/sony-home-task/assets/133960019/90724e2b-c11f-44ca-9583-cb3e34e76b1b)
 
 
